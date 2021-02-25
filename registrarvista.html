@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Trabajo Autonomo</title> 
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+	<link rel="stylesheet" href="estilos.css">
+  <link rel="icon" type="image/png" href="imagenes/marmotita.png">
+</head>
+<body>
+<main>
+<div class="box">
+
+    <form action="#" method="post" id="autonomo" onsubmit ="return false; " class="formulario">
+        
+        <h1>Formulario</h1>
+        <div class="contenedor">
+     
+            <div class="input-contenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+         
+            </div>
+         
+            <div class="input-contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input type="text" name="nombre" id="nombre"  placeholder="Nombre y Apellido">
+         
+            </div>
+
+                <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                <input type="text" name="telefono" id="telefono"  placeholder="Telefono">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                <input type="text"  name="cedula" id="cedula"  placeholder="Cedula">
+            </div>
+            <p>Al subir sus datos esta aceptando todos los terminos.</p>
+            <input type="submit" values="enviar" id="submit" class="boton">
+            
+        </div>
+        <div class="botonparamostrar" align="center">
+        
+
+         
+         </div>
+    </form>
+    </div>
+    <br>
+         <div class ="tabla" align="center">
+         <table border="3" >
+            <div class="box dashed">
+            <h3>INFORMACION DEL PERSONAL</h3>
+            <hr>
+            <p id="p_usuario">
+              Usuario: <span></span>
+            </p>
+            <p id="p_nombre">
+              Apellido y Nombre: <span></span>
+            </p>
+            <p id="p_telefono">
+              Telefono: <span></span>
+            </p>
+            <p id="p_cedula">
+              Cedula: <span></span>
+            </p>
+            </div>
+         </div>
+	</main>
+    <audio autoplay src="Agua.mp3"></audio>
+    <script src="eventos.js"></script>
+    <div class="otroboton">
+    <a href="index.html">
+        <input type="submit" value="Saltarlo" class="boton" />
+        </div>
+</form>
+</body>
+</html>
